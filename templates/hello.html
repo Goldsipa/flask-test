@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+  Hello, {{name}}
+{% endblock %}
+
+{% block body %}
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur in error, quasi animi quaerat cum, ipsam nihil amet repudiandae vel distinctio eaque accusantium expedita sit commodi molestiae rem voluptates eum.
+  </p>
+
+  <a href="{{ url_for('index') }}">Back</a>
+{% endblock %}
